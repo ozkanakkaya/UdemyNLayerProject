@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ozkan\\OneDrive\\Masaüstü\\Projects\\UdemyNLayerProject\\UdemyNLayerProject.Core\\UdemyNLayerProject.Core.csproj",
+      "projectUniqueName": "D:\\GitHub\\UdemyNLayerProject\\UdemyNLayerProject.Core\\UdemyNLayerProject.Core.csproj",
       "projectName": "UdemyNLayerProject.Core",
-      "projectPath": "C:\\Users\\ozkan\\OneDrive\\Masaüstü\\Projects\\UdemyNLayerProject\\UdemyNLayerProject.Core\\UdemyNLayerProject.Core.csproj",
+      "projectPath": "D:\\GitHub\\UdemyNLayerProject\\UdemyNLayerProject.Core\\UdemyNLayerProject.Core.csproj",
       "packagesPath": "C:\\Users\\ozkan\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ozkan\\OneDrive\\Masaüstü\\Projects\\UdemyNLayerProject\\UdemyNLayerProject.Core\\obj\\",
+      "outputPath": "D:\\GitHub\\UdemyNLayerProject\\UdemyNLayerProject.Core\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

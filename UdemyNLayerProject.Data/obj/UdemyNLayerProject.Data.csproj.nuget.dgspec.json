@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ozkan\\OneDrive\\Masaüstü\\Projects\\UdemyNLayerProject\\UdemyNLayerProject.Data\\UdemyNLayerProject.Data.csproj": {}
+    "D:\\GitHub\\UdemyNLayerProject\\UdemyNLayerProject.Data\\UdemyNLayerProject.Data.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ozkan\\OneDrive\\Masaüstü\\Projects\\UdemyNLayerProject\\UdemyNLayerProject.Core\\UdemyNLayerProject.Core.csproj": {
+    "D:\\GitHub\\UdemyNLayerProject\\UdemyNLayerProject.Core\\UdemyNLayerProject.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ozkan\\OneDrive\\Masaüstü\\Projects\\UdemyNLayerProject\\UdemyNLayerProject.Core\\UdemyNLayerProject.Core.csproj",
+        "projectUniqueName": "D:\\GitHub\\UdemyNLayerProject\\UdemyNLayerProject.Core\\UdemyNLayerProject.Core.csproj",
         "projectName": "UdemyNLayerProject.Core",
-        "projectPath": "C:\\Users\\ozkan\\OneDrive\\Masaüstü\\Projects\\UdemyNLayerProject\\UdemyNLayerProject.Core\\UdemyNLayerProject.Core.csproj",
+        "projectPath": "D:\\GitHub\\UdemyNLayerProject\\UdemyNLayerProject.Core\\UdemyNLayerProject.Core.csproj",
         "packagesPath": "C:\\Users\\ozkan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ozkan\\OneDrive\\Masaüstü\\Projects\\UdemyNLayerProject\\UdemyNLayerProject.Core\\obj\\",
+        "outputPath": "D:\\GitHub\\UdemyNLayerProject\\UdemyNLayerProject.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -61,14 +61,14 @@
         }
       }
     },
-    "C:\\Users\\ozkan\\OneDrive\\Masaüstü\\Projects\\UdemyNLayerProject\\UdemyNLayerProject.Data\\UdemyNLayerProject.Data.csproj": {
+    "D:\\GitHub\\UdemyNLayerProject\\UdemyNLayerProject.Data\\UdemyNLayerProject.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ozkan\\OneDrive\\Masaüstü\\Projects\\UdemyNLayerProject\\UdemyNLayerProject.Data\\UdemyNLayerProject.Data.csproj",
+        "projectUniqueName": "D:\\GitHub\\UdemyNLayerProject\\UdemyNLayerProject.Data\\UdemyNLayerProject.Data.csproj",
         "projectName": "UdemyNLayerProject.Data",
-        "projectPath": "C:\\Users\\ozkan\\OneDrive\\Masaüstü\\Projects\\UdemyNLayerProject\\UdemyNLayerProject.Data\\UdemyNLayerProject.Data.csproj",
+        "projectPath": "D:\\GitHub\\UdemyNLayerProject\\UdemyNLayerProject.Data\\UdemyNLayerProject.Data.csproj",
         "packagesPath": "C:\\Users\\ozkan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ozkan\\OneDrive\\Masaüstü\\Projects\\UdemyNLayerProject\\UdemyNLayerProject.Data\\obj\\",
+        "outputPath": "D:\\GitHub\\UdemyNLayerProject\\UdemyNLayerProject.Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -88,8 +88,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\ozkan\\OneDrive\\Masaüstü\\Projects\\UdemyNLayerProject\\UdemyNLayerProject.Core\\UdemyNLayerProject.Core.csproj": {
-                "projectPath": "C:\\Users\\ozkan\\OneDrive\\Masaüstü\\Projects\\UdemyNLayerProject\\UdemyNLayerProject.Core\\UdemyNLayerProject.Core.csproj"
+              "D:\\GitHub\\UdemyNLayerProject\\UdemyNLayerProject.Core\\UdemyNLayerProject.Core.csproj": {
+                "projectPath": "D:\\GitHub\\UdemyNLayerProject\\UdemyNLayerProject.Core\\UdemyNLayerProject.Core.csproj"
               }
             }
           }

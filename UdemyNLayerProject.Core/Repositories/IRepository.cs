@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace UdemyNLayerProject.Core.Repositories
 {
-    interface IRepository<TEntity> where TEntity:class // IEntity mutlaka bir class olmak zorundadır.
+    public interface IRepository<TEntity> where TEntity:class // IEntity mutlaka bir class olmak zorundadır.
     {
         // id göre nesneyi getir
         Task<TEntity> GetByIdAsync(int id);

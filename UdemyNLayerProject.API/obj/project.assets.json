@@ -72,11 +72,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ozkan\\OneDrive\\Masaüstü\\Projects\\UdemyNLayerProject\\UdemyNLayerProject.API\\UdemyNLayerProject.API.csproj",
+      "projectUniqueName": "D:\\GitHub\\UdemyNLayerProject\\UdemyNLayerProject.API\\UdemyNLayerProject.API.csproj",
       "projectName": "UdemyNLayerProject.API",
-      "projectPath": "C:\\Users\\ozkan\\OneDrive\\Masaüstü\\Projects\\UdemyNLayerProject\\UdemyNLayerProject.API\\UdemyNLayerProject.API.csproj",
+      "projectPath": "D:\\GitHub\\UdemyNLayerProject\\UdemyNLayerProject.API\\UdemyNLayerProject.API.csproj",
       "packagesPath": "C:\\Users\\ozkan\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ozkan\\OneDrive\\Masaüstü\\Projects\\UdemyNLayerProject\\UdemyNLayerProject.API\\obj\\",
+      "outputPath": "D:\\GitHub\\UdemyNLayerProject\\UdemyNLayerProject.API\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -96,14 +96,14 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\ozkan\\OneDrive\\Masaüstü\\Projects\\UdemyNLayerProject\\UdemyNLayerProject.Core\\UdemyNLayerProject.Core.csproj": {
-              "projectPath": "C:\\Users\\ozkan\\OneDrive\\Masaüstü\\Projects\\UdemyNLayerProject\\UdemyNLayerProject.Core\\UdemyNLayerProject.Core.csproj"
+            "D:\\GitHub\\UdemyNLayerProject\\UdemyNLayerProject.Core\\UdemyNLayerProject.Core.csproj": {
+              "projectPath": "D:\\GitHub\\UdemyNLayerProject\\UdemyNLayerProject.Core\\UdemyNLayerProject.Core.csproj"
             },
-            "C:\\Users\\ozkan\\OneDrive\\Masaüstü\\Projects\\UdemyNLayerProject\\UdemyNLayerProject.Data\\UdemyNLayerProject.Data.csproj": {
-              "projectPath": "C:\\Users\\ozkan\\OneDrive\\Masaüstü\\Projects\\UdemyNLayerProject\\UdemyNLayerProject.Data\\UdemyNLayerProject.Data.csproj"
+            "D:\\GitHub\\UdemyNLayerProject\\UdemyNLayerProject.Data\\UdemyNLayerProject.Data.csproj": {
+              "projectPath": "D:\\GitHub\\UdemyNLayerProject\\UdemyNLayerProject.Data\\UdemyNLayerProject.Data.csproj"
             },
-            "C:\\Users\\ozkan\\OneDrive\\Masaüstü\\Projects\\UdemyNLayerProject\\UdemyNLayerProject.Service\\UdemyNLayerProject.Service.csproj": {
-              "projectPath": "C:\\Users\\ozkan\\OneDrive\\Masaüstü\\Projects\\UdemyNLayerProject\\UdemyNLayerProject.Service\\UdemyNLayerProject.Service.csproj"
+            "D:\\GitHub\\UdemyNLayerProject\\UdemyNLayerProject.Service\\UdemyNLayerProject.Service.csproj": {
+              "projectPath": "D:\\GitHub\\UdemyNLayerProject\\UdemyNLayerProject.Service\\UdemyNLayerProject.Service.csproj"
             }
           }
         }
