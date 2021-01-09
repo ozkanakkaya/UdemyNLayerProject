@@ -1,0 +1,9 @@
+C:\Users\ozkan\OneDrive\Masaüstü\Projects\UdemyNLayerProject\UdemyNLayerProject.Core\bin\Debug\netcoreapp3.1\UdemyNLayerProject.Core.deps.json
+C:\Users\ozkan\OneDrive\Masaüstü\Projects\UdemyNLayerProject\UdemyNLayerProject.Core\bin\Debug\netcoreapp3.1\UdemyNLayerProject.Core.dll
+C:\Users\ozkan\OneDrive\Masaüstü\Projects\UdemyNLayerProject\UdemyNLayerProject.Core\bin\Debug\netcoreapp3.1\UdemyNLayerProject.Core.pdb
+C:\Users\ozkan\OneDrive\Masaüstü\Projects\UdemyNLayerProject\UdemyNLayerProject.Core\obj\Debug\netcoreapp3.1\UdemyNLayerProject.Core.AssemblyInfoInputs.cache
+C:\Users\ozkan\OneDrive\Masaüstü\Projects\UdemyNLayerProject\UdemyNLayerProject.Core\obj\Debug\netcoreapp3.1\UdemyNLayerProject.Core.AssemblyInfo.cs
+C:\Users\ozkan\OneDrive\Masaüstü\Projects\UdemyNLayerProject\UdemyNLayerProject.Core\obj\Debug\netcoreapp3.1\UdemyNLayerProject.Core.csproj.CoreCompileInputs.cache
+C:\Users\ozkan\OneDrive\Masaüstü\Projects\UdemyNLayerProject\UdemyNLayerProject.Core\obj\Debug\netcoreapp3.1\UdemyNLayerProject.Core.dll
+C:\Users\ozkan\OneDrive\Masaüstü\Projects\UdemyNLayerProject\UdemyNLayerProject.Core\obj\Debug\netcoreapp3.1\UdemyNLayerProject.Core.pdb
+C:\Users\ozkan\OneDrive\Masaüstü\Projects\UdemyNLayerProject\UdemyNLayerProject.Core\obj\Debug\netcoreapp3.1\UdemyNLayerProject.Core.csprojAssemblyReference.cache
