@@ -8,7 +8,7 @@ namespace UdemyNLayerProject.Core.UnitOfWorks
 {
     public interface IUnitOfWork
     {
-        IProductRepository Product { get; }
+        IProductRepository Products { get; }
 
         ICategoryRepository Categories { get; }
 

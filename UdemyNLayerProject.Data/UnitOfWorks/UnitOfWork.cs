@@ -21,7 +21,7 @@ namespace UdemyNLayerProject.Data.UnitOfWorks
         private ProductRepository _productRepository;
         private CategoryRepository _categoryRepository;
 
-        public IProductRepository Product => _productRepository = _productRepository ?? new ProductRepository(_contex);
+        public IProductRepository Products => _productRepository = _productRepository ?? new ProductRepository(_contex);
 
         public ICategoryRepository Categories => _categoryRepository = _categoryRepository ?? new CategoryRepository(_contex);
 

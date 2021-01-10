@@ -15,7 +15,7 @@ namespace UdemyNLayerProject.Core.Repositories
         Task<IEnumerable<TEntity>> GetAllAsync();
 
         //herhangi bir paremetreye göre ilgili nesneleri bul
-        IEnumerable<TEntity> Where(Expression<Func<TEntity, bool>> predicate);//TEntity alan geriye bool dönen bir method(Func ve predicate bir delegedir)
+        Task<IEnumerable<TEntity>> Where(Expression<Func<TEntity, bool>> predicate);//TEntity alan geriye bool dönen bir method(Func ve predicate bir delegedir)
 
         //herhangi bir paremetreye göre örneğin product ın innerbarcode u şu olan ürünü döndür(1 ürün olacak)
         Task<TEntity> SingleOrDefaultAsync(Expression<Func<TEntity, bool>> predicate);
