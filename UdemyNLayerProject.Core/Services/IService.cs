@@ -20,9 +20,9 @@ namespace UdemyNLayerProject.Core.Services
 
         Task AddRangeAsync(IEnumerable<TEntity> entities);
 
-        Task Remove(TEntity entity);
+        void Remove(TEntity entity);
 
-        Task RemoveRange(IEnumerable<TEntity> entities);
+        void RemoveRange(IEnumerable<TEntity> entities);
 
         TEntity Update(TEntity entity);
 

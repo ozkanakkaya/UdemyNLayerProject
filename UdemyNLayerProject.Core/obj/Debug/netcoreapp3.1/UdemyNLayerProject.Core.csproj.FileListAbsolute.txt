@@ -7,3 +7,11 @@ C:\Users\ozkan\OneDrive\Masaüstü\Projects\UdemyNLayerProject\UdemyNLayerProjec
 C:\Users\ozkan\OneDrive\Masaüstü\Projects\UdemyNLayerProject\UdemyNLayerProject.Core\obj\Debug\netcoreapp3.1\UdemyNLayerProject.Core.dll
 C:\Users\ozkan\OneDrive\Masaüstü\Projects\UdemyNLayerProject\UdemyNLayerProject.Core\obj\Debug\netcoreapp3.1\UdemyNLayerProject.Core.pdb
 C:\Users\ozkan\OneDrive\Masaüstü\Projects\UdemyNLayerProject\UdemyNLayerProject.Core\obj\Debug\netcoreapp3.1\UdemyNLayerProject.Core.csprojAssemblyReference.cache
+D:\GitHub\UdemyNLayerProject\UdemyNLayerProject.Core\bin\Debug\netcoreapp3.1\UdemyNLayerProject.Core.deps.json
+D:\GitHub\UdemyNLayerProject\UdemyNLayerProject.Core\bin\Debug\netcoreapp3.1\UdemyNLayerProject.Core.dll
+D:\GitHub\UdemyNLayerProject\UdemyNLayerProject.Core\bin\Debug\netcoreapp3.1\UdemyNLayerProject.Core.pdb
+D:\GitHub\UdemyNLayerProject\UdemyNLayerProject.Core\obj\Debug\netcoreapp3.1\UdemyNLayerProject.Core.AssemblyInfoInputs.cache
+D:\GitHub\UdemyNLayerProject\UdemyNLayerProject.Core\obj\Debug\netcoreapp3.1\UdemyNLayerProject.Core.AssemblyInfo.cs
+D:\GitHub\UdemyNLayerProject\UdemyNLayerProject.Core\obj\Debug\netcoreapp3.1\UdemyNLayerProject.Core.csproj.CoreCompileInputs.cache
+D:\GitHub\UdemyNLayerProject\UdemyNLayerProject.Core\obj\Debug\netcoreapp3.1\UdemyNLayerProject.Core.dll
+D:\GitHub\UdemyNLayerProject\UdemyNLayerProject.Core\obj\Debug\netcoreapp3.1\UdemyNLayerProject.Core.pdb
