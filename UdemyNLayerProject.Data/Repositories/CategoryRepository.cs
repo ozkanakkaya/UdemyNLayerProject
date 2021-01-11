@@ -12,7 +12,7 @@ namespace UdemyNLayerProject.Data.Repositories
     {
         private AppDbContext _appDbContext { get => _contex as AppDbContext; }
 
-        public CategoryRepository(DbContext context) : base(context)
+        public CategoryRepository(AppDbContext context) : base(context)
         {
         }
 

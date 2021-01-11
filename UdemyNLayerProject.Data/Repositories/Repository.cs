@@ -14,7 +14,7 @@ namespace UdemyNLayerProject.Data.Repositories
         protected readonly DbContext _contex;//veri tabanı--- miras alınacağı için protected
         private readonly DbSet<TEntity> _dbSet;//tablolar
 
-        public Repository(DbContext context)
+        public Repository(AppDbContext context)
         {
             _contex = context;
             _dbSet = context.Set<TEntity>();

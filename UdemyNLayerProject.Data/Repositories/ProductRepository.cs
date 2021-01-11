@@ -13,7 +13,7 @@ namespace UdemyNLayerProject.Data.Repositories
     {
         private AppDbContext _appDbContext { get => _contex as AppDbContext; }// _contex i AppDbContex e dönüştürdük
         
-        public ProductRepository(DbContext context) : base(context)//base(context):Repository ye gönderir
+        public ProductRepository(AppDbContext context) : base(context)//base(context):Repository ye gönderir
         {
         }
 
