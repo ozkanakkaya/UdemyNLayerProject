@@ -17,6 +17,7 @@ using UdemyNLayerProject.Data;
 using UdemyNLayerProject.Data.Repositories;
 using UdemyNLayerProject.Data.UnitOfWorks;
 using UdemyNLayerProject.Service.Services;
+using UdemyNLayerProject.Web.Filters;
 
 namespace UdemyNLayerProject.Web
 {
@@ -32,6 +33,7 @@ namespace UdemyNLayerProject.Web
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddScoped<NotFoundFilter>();
             services.AddAutoMapper(typeof(Startup));
             //Dependency Injection ayarlarý
             //Eðer constructor da IRepository ile karþýlaþýrsan git Reepository den bir nesne örneði oluþtur ve IRepository e ata.
@@ -40,7 +42,7 @@ namespace UdemyNLayerProject.Web
             //Ayný reques içerisinde birden fazla karþýlaþýrsa ilk oluþtuduðu nesne örneðini alýr.
             //Eðer her karþýlaþtýðýnda yeni bir nesne örneði oluþturmasý için "AddTransient" i kullanabiliriz. Ama AddScoped daha performanslýdýr.
             // "AddSingleton" ise sadece tek birkez oluþturur ve uygulama boyunca oluþan o class ý kullanýr.
-
+            
             services.AddScoped(typeof(IRepository<>), typeof(Repository<>));
             services.AddScoped(typeof(IService<>), typeof(Service.Services.Service<>));
             services.AddScoped<ICategoryService, CategoryService>();
