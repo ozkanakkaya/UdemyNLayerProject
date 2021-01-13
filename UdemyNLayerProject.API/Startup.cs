@@ -11,9 +11,16 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using UdemyNLayerProject.Core.Repositories;
+using UdemyNLayerProject.Core.Services;
 using UdemyNLayerProject.Core.UnitOfWorks;
 using UdemyNLayerProject.Data;
+using UdemyNLayerProject.Data.Repositories;
 using UdemyNLayerProject.Data.UnitOfWorks;
+using UdemyNLayerProject.Service.Services;
+using AutoMapper;
+using UdemyNLayerProject.API.Filters;
+using UdemyNLayerProject.API.Extensions;
 
 namespace UdemyNLayerProject.API
 {
@@ -29,6 +36,20 @@ namespace UdemyNLayerProject.API
         // This method gets called by the runtime. Use this method to add services to the container.//Servislerimizi eklediðimiz method
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddAutoMapper(typeof(Startup));//tüm nesnelerimizin dönüþtürme iþlemini gerçekleþtirir
+
+            services.AddScoped<NotFoundFilter>();//bu filter dependency injection nesnesi aldýðýndan dolayý buraya eklememiz gerekti.
+
+            //Dependency Injection ayarlarý
+            //Eðer constructor da IRepository ile karþýlaþýrsan git Reepository den bir nesne örneði oluþtur ve IRepository e ata.
+            services.AddScoped(typeof(IRepository<>), typeof(Repository<>));
+            services.AddScoped(typeof(IService<>), typeof(Service.Services.Service<>));
+            services.AddScoped<ICategoryService, CategoryService>();
+            services.AddScoped<IProductService, ProductService>();
+
+            //AddScoped ýn yaptýðý iþlem: Bir istek esnasýnda, bir classýn ctor unda IUnitOfWork ile karþýlaþýrsa, UnitOfWork a giderek bir nesne örneði alacak.
+            services.AddScoped<IUnitOfWork,UnitOfWork>();
+
             services.AddDbContext<AppDbContext>(options =>
             {
                 //EntityFramework ün kullanacaðý veritabaný(splserver) ve baðlantýsý verildi.
@@ -39,10 +60,17 @@ namespace UdemyNLayerProject.API
                      });
             });
 
-            //AddScoped ýn yaptýðý iþlem: Bir istek esnasýnda, bir classýn ctor unda IUnitOfWork ile karþýlaþýrsa, UnitOfWork a giderek bir nesne örneði alacak.
-            services.AddScoped<IUnitOfWork, UnitOfWork>();
+            services.AddControllers(o=> 
+            {
+                o.Filters.Add(new ValidationFilter());//global düzeyde bu filterýmýzý tüm controllerýmýza eklemiþ olduk.
+            });
 
-            services.AddControllers();
+            //Kendi errorlarýmýzý yapabilmemiz için
+            services.Configure<ApiBehaviorOptions>(options =>
+            {
+                options.SuppressModelStateInvalidFilter = true;//filterlarý kontro etmemesi..
+            });
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline. (Katmanlarý eklediðimiz method
@@ -52,6 +80,8 @@ namespace UdemyNLayerProject.API
             {
                 app.UseDeveloperExceptionPage();
             }
+
+            app.UseCustomException();//bizim yazdýðmýz extensions(sistemdeki var olan hata yakalamalara eklediðimizi ifade eder) metodumuz
 
             app.UseHttpsRedirection();
 
