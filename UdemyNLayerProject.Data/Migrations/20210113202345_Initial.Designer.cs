@@ -9,7 +9,7 @@ using UdemyNLayerProject.Data;
 namespace UdemyNLayerProject.Data.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20210111144500_Initial")]
+    [Migration("20210113202345_Initial")]
     partial class Initial
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -52,6 +52,26 @@ namespace UdemyNLayerProject.Data.Migrations
                             IsDeleted = false,
                             Name = "Defterler"
                         });
+                });
+
+            modelBuilder.Entity("UdemyNLayerProject.Core.Models.Person", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .UseIdentityColumn();
+
+                    b.Property<string>("Name")
+                        .HasMaxLength(100)
+                        .HasColumnType("nvarchar(100)");
+
+                    b.Property<string>("SurName")
+                        .HasMaxLength(100)
+                        .HasColumnType("nvarchar(100)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Persons");
                 });
 
             modelBuilder.Entity("UdemyNLayerProject.Core.Models.Product", b =>
