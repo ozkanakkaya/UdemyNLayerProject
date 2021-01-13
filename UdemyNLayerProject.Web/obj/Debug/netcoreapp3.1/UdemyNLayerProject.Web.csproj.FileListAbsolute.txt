@@ -156,3 +156,4 @@ D:\GitHub\UdemyNLayerProject\UdemyNLayerProject.Web\bin\Debug\netcoreapp3.1\tr\M
 D:\GitHub\UdemyNLayerProject\UdemyNLayerProject.Web\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
 D:\GitHub\UdemyNLayerProject\UdemyNLayerProject.Web\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
 D:\GitHub\UdemyNLayerProject\UdemyNLayerProject.Web\obj\Debug\netcoreapp3.1\Razor\Views\Categories\Index.cshtml.g.cs
+D:\GitHub\UdemyNLayerProject\UdemyNLayerProject.Web\obj\Debug\netcoreapp3.1\Razor\Views\Categories\Create.cshtml.g.cs
