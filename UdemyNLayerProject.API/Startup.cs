@@ -42,12 +42,17 @@ namespace UdemyNLayerProject.API
 
             //Dependency Injection ayarlarý
             //Eðer constructor da IRepository ile karþýlaþýrsan git Reepository den bir nesne örneði oluþtur ve IRepository e ata.
+
+            //AddScoped ýn yaptýðý iþlem: Bir istek esnasýnda, bir classýn ctor unda bir interface ile karþýlaþýrsa, ona karþýlýk gelen classa giderek bir nesne örneði oluþturur.
+            //Ayný reques içerisinde birden fazla karþýlaþýrsa ilk oluþtuduðu nesne örneðini alýr.
+            //Eðer her karþýlaþtýðýnda yeni bir nesne örneði oluþturmasý için "AddTransient" i kullanabiliriz. Ama AddScoped daha performanslýdýr.
+            // "AddSingleton" ise sadece tek birkez oluþturur ve uygulama boyunca oluþan o class ý kullanýr.
+
             services.AddScoped(typeof(IRepository<>), typeof(Repository<>));
             services.AddScoped(typeof(IService<>), typeof(Service.Services.Service<>));
             services.AddScoped<ICategoryService, CategoryService>();
             services.AddScoped<IProductService, ProductService>();
 
-            //AddScoped ýn yaptýðý iþlem: Bir istek esnasýnda, bir classýn ctor unda IUnitOfWork ile karþýlaþýrsa, UnitOfWork a giderek bir nesne örneði alacak.
             services.AddScoped<IUnitOfWork,UnitOfWork>();
 
             services.AddDbContext<AppDbContext>(options =>

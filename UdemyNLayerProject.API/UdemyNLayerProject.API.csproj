@@ -14,8 +14,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\UdemyNLayerProject.Core\UdemyNLayerProject.Core.csproj" />
-    <ProjectReference Include="..\UdemyNLayerProject.Data\UdemyNLayerProject.Data.csproj" />
     <ProjectReference Include="..\UdemyNLayerProject.Service\UdemyNLayerProject.Service.csproj" />
   </ItemGroup>
 
