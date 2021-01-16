@@ -1,0 +1,11 @@
+/.vs
+/UdemyNLayerProject.API/obj
+/UdemyNLayerProject.API/bin
+/UdemyNLayerProject.Core/obj
+/UdemyNLayerProject.Core/bin
+/UdemyNLayerProject.Data/obj
+/UdemyNLayerProject.Data/bin
+/UdemyNLayerProject.Service/bin
+/UdemyNLayerProject.Service/obj
+/UdemyNLayerProject.Web/bin
+/UdemyNLayerProject.Web/obj
