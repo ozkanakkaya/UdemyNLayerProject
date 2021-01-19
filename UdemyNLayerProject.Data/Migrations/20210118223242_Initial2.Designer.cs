@@ -9,8 +9,8 @@ using UdemyNLayerProject.Data;
 namespace UdemyNLayerProject.Data.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20210113202345_Initial")]
-    partial class Initial
+    [Migration("20210118223242_Initial2")]
+    partial class Initial2
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {

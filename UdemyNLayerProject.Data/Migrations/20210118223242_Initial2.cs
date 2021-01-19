@@ -2,7 +2,7 @@
 
 namespace UdemyNLayerProject.Data.Migrations
 {
-    public partial class Initial : Migration
+    public partial class Initial2 : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
